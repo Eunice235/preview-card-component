@@ -1,0 +1,57 @@
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(241, 236, 236);
+    height: 600px;
+    width: 700px;
+    background-color: whitesmoke;
+
+}
+.card{
+    display: flex;
+    border: 1px solid rgb(230, 227, 227);
+    height: 500px;
+    width: 600px;
+    border-radius:20px ;
+}
+.leftsection{
+    border: 2px solid rgb(241, 243, 241);
+    height: 500px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rightsection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(234, 234, 238);
+    height: 500px;
+    width: 300px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+img{
+    border: 2px solid rgb(232, 236, 232);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 500px;
+    width: 300px;
+
+}
+.cart{
+    display: flex;
+    border: 1px solid rgb(221, 215, 215);
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.5);
+    color: whitesmoke;
+    justify-content: space-around;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
